@@ -1,0 +1,479 @@
+body {
+    background-color: #ffffff;
+    font-family: "Assistant", sans-serif;
+    color: #0c285f;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #0c285f;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #0c285f !important;
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -33px !important;
+    height: 70px;
+    border-radius: 0;
+}
+
+.btn-login {
+    background-color: #0c285f;
+    color: #ffffff;
+}
+
+.btn-login:hover {
+    background-color: #1e3771;
+    color: #ffffff;
+}
+
+header {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url("../images/Banner2x.jpg");
+    background-size: cover;
+}
+
+header h1,
+header p {
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+}
+
+header h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+header p {
+    font-size: 22px;
+}
+
+header .btn-get-started {
+    background-color: #f8921a;
+    color: #ffffff;
+}
+
+header .btn-get-started:hover {
+    background-color: #fa9b2c;
+    color: #ffffff;
+}
+
+.section-stats {
+    margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+    padding-top: 15px;
+    background-color: #ffffff;
+    padding-left: 40px;
+}
+
+.section-stats h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.section-stats p {
+    font-size: 20px;
+    font-weight: light;
+}
+
+.section-popular {
+    min-height: 540px;
+    background-color: #0e2552;
+    margin-top: -50px;
+    margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+    margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2,
+.section-popular .section-popular-heading p {
+    color: #ffffff;
+}
+
+.section-popular .section-popular-heading h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+    font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+    min-height: 380px;
+    background-color: #e4e6eb;
+    color: #ffffff;
+    padding: 30px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.section-popular-content
+    .section-popular-travel
+    .travel-button
+    .btn-travel-details {
+    background-color: #f8921a;
+    color: #ffffff;
+}
+
+.section-popular-content
+    .section-popular-travel
+    .travel-button
+    .btn-travel-details:hover {
+    background-color: #fa9b2c;
+    color: #ffffff;
+}
+
+.section-networks {
+    background-color: #ffffff;
+    margin-top: -170px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+}
+
+.section-networks h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+
+.section-networks img {
+    max-width: 100%;
+}
+
+.section-testimonial-heading {
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(45.76%, #ffffff),
+        color-stop(136%, rgba(197, 209, 232, 0))
+    );
+    background: linear-gradient(
+        180deg,
+        #ffffff 45.76%,
+        rgba(197, 209, 232, 0) 136%
+    );
+    padding-top: 50px;
+    min-height: 506px;
+}
+
+.section-testimonial-heading h2 {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.section-testimonial-heading p {
+    font-size: 18px;
+}
+
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+}
+
+.section-testimonial-content .testimonial-content {
+    min-height: 380px;
+}
+
+.section-testimonial-content h3 {
+    font-size: 22px;
+}
+
+.section-testimonial-content .testimonial {
+    font-weight: 200;
+    font-size: 26px;
+    color: #0c285f;
+    min-height: 160px;
+}
+
+.section-testimonial-content .trip-to {
+    font-weight: normal;
+    font-size: 22px;
+    color: #0c285f;
+}
+
+.section-testimonial-content hr {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.section-testimonial-content .btn-need-help {
+    background-color: #c4c4c4;
+    color: #ffffff;
+}
+
+.section-testimonial-content .btn-need-help:hover {
+    background-color: #dcdbdb;
+    color: #ffffff;
+}
+
+.section-testimonial-content .btn-get-started {
+    background-color: #f8921a;
+    color: #ffffff;
+}
+
+.section-testimonial-content .btn-get-started:hover {
+    background-color: #fa9b2c;
+    color: #ffffff;
+}
+
+.section-footer a {
+    color: #0c285f;
+}
+
+.section-details-header {
+    min-height: 310px;
+    background: #ecf0f7;
+    margin-top: -70px;
+}
+
+.section-details-content {
+    margin-top: -210px;
+    min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+    font-weight: bold;
+    color: #0c285f;
+}
+
+.card-details {
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.card-details h1 {
+    font-size: 26px;
+}
+
+.card-details h2 {
+    font-size: 20px;
+}
+
+.card-details p {
+    font-size: 18px;
+    color: #afafaf;
+}
+
+.card-details h3 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-details .trip-informations th {
+    font-weight: 300;
+    font-size: 18px;
+    color: #0c285f;
+}
+
+.card-details .trip-informations td {
+    font-weight: 300;
+    font-size: 18px;
+    color: #afafaf;
+}
+
+.card-details .trip-informations .text-blue {
+    color: #0c285f;
+    font-weight: bold;
+}
+
+.card-details .trip-informations .text-orange {
+    color: #f8921a;
+    font-weight: bold;
+}
+
+.card-details .payment-instruction {
+    font-weight: 300;
+    font-size: 14px;
+    color: #afafaf;
+}
+
+.card-details .bank .bank-item h3 {
+    font-size: 18px;
+    color: #0c285f;
+    margin-bottom: 0;
+    margin-top: -20px;
+}
+
+.card-details .bank .bank-item p {
+    margin-bottom: 0;
+}
+
+.card-details .bank .bank-item .description {
+    margin-left: 10px;
+    overflow: hidden;
+    float: left;
+}
+
+.card-details .bank .bank-item .description p {
+    color: #0c285f;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.card-details .bank .bank-image {
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+
+.card-details .btn-cancel {
+    text-decoration: underline;
+    color: #afafaf;
+}
+
+.card-details .disclaimer {
+    font-weight: 300;
+    font-size: 18px;
+    color: #afafaf;
+}
+
+.card-details .btn-add-now {
+    background-color: #0c285f;
+    color: #ffffff;
+}
+
+.card-details .btn-add-now:hover {
+    background-color: #1e3771;
+    color: #ffffff;
+}
+
+.card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+}
+
+.features {
+    margin-top: 20px;
+}
+
+.features h3 {
+    font-size: 18px;
+    color: #0c285f;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.features p {
+    margin-bottom: 0;
+}
+
+.features .description {
+    margin-top: 0;
+    margin-left: 10px;
+    overflow: hidden;
+    float: left;
+}
+
+.features .features-image {
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+
+.gallery .xzoom-container {
+    display: block;
+}
+
+.gallery .xzoom-container .xzoom {
+    width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.gallery .xzoom-container .xactive {
+    border: 4px solid;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.members .member-image {
+    width: 40px;
+    height: 40px;
+}
+
+.join-container {
+    margin-top: -10px;
+}
+
+.btn-join-now {
+    background-color: #f8921a;
+    color: #ffffff;
+    border-radius: 0;
+}
+
+.btn-join-now:hover {
+    background-color: #fa9b2c;
+    color: #ffffff;
+}
+
+.section-success {
+    height: 90vh;
+}
+
+.section-success h1 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 26px;
+    color: #0c285f;
+}
+
+.section-success p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #afafaf;
+}
+
+.section-success .btn-home-page {
+    border-radius: 4px;
+    background-color: #0c285f;
+    color: #ffffff;
+}
+
+.section-success .btn-home-page:hover {
+    color: #ffffff;
+    background-color: #1e3771;
+}
+/*# sourceMappingURL=main.css.map */
